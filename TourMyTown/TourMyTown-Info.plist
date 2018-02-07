@@ -20,7 +20,7 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.mikekatz.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -37,18 +37,18 @@
 	<true/>
 	<key>MKDirectionsApplicationSupportedModes</key>
 	<array/>
+	<key>NSCameraUsageDescription</key>
+	<string>Add yuor pictures to local Points of Interest.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Location is used for adding new placemarks, and showing nearby Points of Interest.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Add your pictures to local Points of Interest.</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
 	</array>
-	<key>NSLocationUsageDescription</key>
-	<string>Location is used for adding new placemarks, and showing nearby Points of Interest.</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Add your pictures to local Points of Interest.</string>
-	<key>NSCameraUsageDescription</key>
-	<string>Add yuor pictures to local Points of Interest.</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
